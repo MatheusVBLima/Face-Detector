@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Supermercado One', cursive;
+    color: whitesmoke;
+}
+
+body {
+    background: #232526;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #414345, #232526);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #414345, #232526);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 1920px;
+    height: 979px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+    margin-top: 20px;
+    border-bottom: 2px solid #ce9700;
+}
+
+header h2 {
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.main {}
+
+canvas {
+    position: absolute;
+}
